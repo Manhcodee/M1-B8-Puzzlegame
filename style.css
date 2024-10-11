@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.puzzle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 10px;
+    border: 4px solid #000;
+}
+
+.all-same-border {
+    border-color: red;
+}
